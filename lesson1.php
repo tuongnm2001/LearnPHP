@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lesson 1 </title>
 </head>
 <body>
     <?php 
@@ -13,6 +13,7 @@
         $var3 = 415 ;
         $var4 = 5 ;
     ?>
+    <h3>Lesson 2</h3>
 
     Basic Math : <?php echo ((1 + 2 + $var1) * $var2) / 2 - 5; ?> <br/>
     Absolute value : <?php echo abs(0 - 300)?> <br/>
