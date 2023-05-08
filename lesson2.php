@@ -20,8 +20,10 @@
     Floor: <?php echo floor($float)?>
 
     <br/>
+    <br/>
 
     <?php $integer = 3; ?>
+    <?php $string = 'xin chao'; ?>
 
     <?php echo "Is {$integer} integer ? ". is_int($integer); ?><br/>
     <?php echo "Is {$float} integer ? ". is_int($float); ?><br/>
@@ -31,7 +33,7 @@
     <?php echo "Is {$float} integer ? ". is_float($float); ?><br/>
     <br/>
 
-    <?php echo "Is {$integer} numeric ? ". is_numeric($integer); ?><br/>
+    <?php echo "Is {$string} numeric ? ". is_numeric($string); ?><br/>
     <?php echo "Is {$float} integer ? ". is_numeric($float); ?><br/>
     <br/>
 </body>
